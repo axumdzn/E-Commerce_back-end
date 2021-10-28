@@ -1,28 +1,25 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "e-commerce_back-end",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/axumdzn/E-Commerce_back-end.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Ken Felix",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
+  "bugs": {
+    "url": "https://github.com/axumdzn/E-Commerce_back-end/issues"
   },
+  "homepage": "https://github.com/axumdzn/E-Commerce_back-end#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^5.21.7"
+    "sequelize": "^6.8.0"
   }
 }
