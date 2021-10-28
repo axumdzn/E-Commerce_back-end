@@ -8,6 +8,8 @@ router.get('/', async (req, res) => {
   try {
     const tagData = await Tag.findAll();
     res.status(200).json(tagData);
+
+    if(!tagData) {req.status(404).json({message:"Tag could not be found"})};
   } catch (err) {
     res.status(500).json(err);
   }
